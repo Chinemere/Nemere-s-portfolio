@@ -1,0 +1,42 @@
+/* #C7493A  orange Main
+#A33327 orange light
+#689775 DULL GRREN
+#917164 DULL BROWN
+#AD8174 LIGHTTER DULL BROWN 
+#FE007E PINK*/
+
+* {
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+  font-size: 17px;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+.container2 {
+  position: fixed;
+  color: #c51905;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-self: center; */
+}
+h1 {
+  line-height: 2.4;
+}
+.web {
+  font-family: "Montserrat", sans-serif;
+}
