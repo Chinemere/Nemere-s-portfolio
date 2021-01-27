@@ -217,7 +217,65 @@ body {
   }
 }
 
-.bounce:hover {
+/* .bounce:hover {
   -webkit-animation-name: bounce;
   animation-name: bounce;
+} */
+
+.html-5 {
+  animation-delay: 1s;
+  -webkit-animation-delay: 1s;
+  animation-duration: 4s;
+  -webkit-animation-duration: 4s;
+  animation-iteration-count: 1;
+  -webkit-animation-iteration-count: 1;
+}
+
+.title {
+  padding: 10px;
+}
+
+.calc-card-container {
+  border: 2px solid #f2505f;
+}
+.chat-card-container {
+  border: 2px solid #4d0583;
+}
+.blog-card-container {
+  border: 2px solid#ffffff;
+}
+.testimonial-card-container {
+  border: 2px solid #4117a6;
+}
+
+.digital-card-container {
+  border: 2px solid #0d6c75;
+}
+.login-card-container {
+  border: 2px solid#011A54;
+}
+.chandyloos-card-container {
+  border: 2px solid #ff8320;
+}
+.mirage-card-container {
+  border: 2px solid#6b6765;
+}
+.ademulegun-card-container {
+  border: 2px solid#7994A5;
+}
+
+.tech-container1 {
+  display: flex;
+  justify-content: center;
+  line-height: 2;
+}
+
+.tech-container2 {
+  display: flex;
+  justify-content: center;
+  line-height: 2;
+  margin-top: 30px;
+}
+.tech-images {
+  margin: 10px;
 }
