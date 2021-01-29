@@ -151,6 +151,7 @@ body {
     transform: translate3d(-100%, 0, 0);
   }
 }
+/*
 .my-image,
 .get-to-know-me,
 .calc,
@@ -230,8 +231,7 @@ body {
   animation-iteration-count: 1;
   -webkit-animation-iteration-count: 1;
 }
-
-.title {
+*/ .title {
   padding: 10px;
 }
 

@@ -5,6 +5,8 @@
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
   />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
       <link rel="stylesheet" href="innerpage.css">
       <!-- google fonts -->
       <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -46,7 +48,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Nemere's Portfolio</title>
     </head>
-    
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
     <body>
       <div class="navbar-fixed">
   <nav class="" style="background-color: #020816;">
@@ -70,11 +73,25 @@
   <section class="center  section scrollspy" id="aboutme" >
       <div class="container">
           <div class="row">
-              <div class="col s12 l6  my-image" style="padding-top: 70px;">
+              <div class="col s12 l6  my-image" style="padding-top: 70px;" data-aos="fade-right"
+              data-aos-offset="10"
+              data-aos-delay="1000"
+              data-aos-duration="07"
+              data-aos-easing="ease-in-out"
+              data-aos-mirror="true"
+              data-aos-once="false"
+              data-aos-anchor-placement="top-center" >
                 <img src="chinemere-pics.jpg" class="responsive-img card-panel z-depth-4 me" alt="chinemere's image" style="background-color:#051336;">
               </div>
-              <div class="col s12 l6 get-to-know-me " style="padding-top: 80px;">
-                <h5 class="head">Get to Know Me</h5>
+              <div class="col s12 l6 get-to-know-me " style="padding-top: 80px;" data-aos="fade-left"
+              data-aos-offset="10"
+              data-aos-delay="1000"
+              data-aos-duration="07"
+              data-aos-easing="ease-in-out"
+              data-aos-mirror="true"
+              data-aos-once="false"
+              data-aos-anchor-placement="top-center">
+                <h5 class="head " data-aos="fade-right" id="get-to-know-me"><!--Get to Know Me--></h5>
                   <blockquote class="left-align card-panel">Chinemere is an interesting fellow, whose creativity is an endearing one.
                     I am passionate about the emerging disruptions in modern technology.
                     I am a front end engineer whose passion is to provide solutions to problems through various web technologies.<br><br>
@@ -89,8 +106,15 @@
 
   <section class=" section scrollspy " id="myprojects" style="background-color: #050f2a;">
     <div class="container">
-      <h5 class="center head">My Projects</h5>
-<div class="row">
+      <h5 class="center head" data-aos="fade-right" id="my-project" ></h5>
+<div class="row " data-aos="fade-right"
+data-aos-offset="10"
+data-aos-delay="07"
+data-aos-duration="1000"
+data-aos-easing="ease-in-out"
+data-aos-mirror="true"
+data-aos-once="false"
+data-aos-anchor-placement="top-center">
   <div class="col s12 m5 l4 calc">
     <div class="card black darken-4 calc-card-container">
     <div class="card-image">
@@ -127,7 +151,14 @@
 
 </div>
 
-<div class="row">
+<div class="row "data-aos="fade-left"
+data-aos-offset="10"
+data-aos-delay="07"
+data-aos-duration="1000"
+data-aos-easing="ease-in-out"
+data-aos-mirror="true"
+data-aos-once="false"
+data-aos-anchor-placement="top-center">
   <div class="col s12 m5 l4 testimonial">
     <div class="card">
     <div class="card-image black testimonial-card-container">
@@ -164,7 +195,14 @@
 </div>  
 
 
-<div class="row">
+<div class="row"  data-aos="fade-right"
+data-aos-offset="10"
+data-aos-delay="07"
+data-aos-duration="1000"
+data-aos-easing="ease-in-out"
+data-aos-mirror="true"
+data-aos-once="false"
+data-aos-anchor-placement="top-center">
   <div class="col s12 m5 l4 chandyloos">
     <div class="card">
     <div class="card-image black chandyloos-card-container">
@@ -205,41 +243,63 @@
   
 
  <section id="skills" class="section scrollspy">
-  <div class="container">
-   <h5 class="center head">Technologies That I Work With</h5>
+  <div class="container" >
+   <h5 class="center head"  id="technologies" data-aos="fade-right" data-aos="fade-right"
+   data-aos-offset="10"
+   data-aos-delay="07"
+   data-aos-duration="5000"
+   data-aos-easing="ease-in-out"
+   data-aos-mirror="true"
+   data-aos-once="false"
+   data-aos-anchor-placement="top-center" ></h5>
+   <div class="row "   >
    <div class="center skills-images  ">
 
-    <div class="tech-container1">
+    <div class="tech-container1"  data-aos="flip-right"
+    data-aos-offset="10"
+    data-aos-delay="07"
+    data-aos-duration="1000"
+    data-aos-easing="ease-in-out"
+    data-aos-mirror="true"
+    data-aos-once="false"
+    data-aos-anchor-placement="top-center">
       <span class="tech-images">
-<img src="html-5.png" alt="html logo" figcaptio width="50px" height="50px" class="animate__animated animate__slideInDown html-5">
-<figcaption class="white-text animate__animated animate__slideInDown html-5">HTML 5</figcaption>
+<img src="html-5.png" alt="html logo" figcaptio width="50px" height="50px" >
+<figcaption class="white-text ">HTML 5</figcaption>
 </span>
 
 <span class="tech-images">
-<img src="css-3.png" alt="css logo" width="50px" height="50px" class="animate__animated animate__slideInDown html-5">
-<figcaption class="white-text animate__animated animate__slideInDown html-5">CSS 3 </figcaption>
+<img src="css-3.png" alt="css logo" width="50px" height="50px" >
+<figcaption class="white-text ">CSS 3 </figcaption>
 </span>
 
 <span class="tech-images">
-<img src="javascript.png" alt="javascript logo" width="50px" height="50px" class="animate__animated animate__slideInDown html-5">
-<figcaption class="white-text animate__animated animate__slideInDown html-5">JAVASCRIPT</figcaption>
+<img src="javascript.png" alt="javascript logo" width="50px" height="50px" >
+<figcaption class="white-text ">JAVASCRIPT</figcaption>
 </span>
 </div>
 
-<div class="tech-container2">
+<div class="tech-container2" data-aos="flip-left"
+data-aos-offset="10"
+data-aos-delay="07"
+data-aos-duration="1000"
+data-aos-easing="ease-in-out"
+data-aos-mirror="true"
+data-aos-once="false"
+data-aos-anchor-placement="top-center">
   <span class="tech-images">
-    <img src="wordpress.png" alt="wordpress logo" figcaptio width="50px" height="50px" class="animate__animated animate__slideInUp html-5">
-    <figcaption class="white-text animate__animated animate__slideInUp html-5">WORDPRESS</figcaption>
+    <img src="wordpress.png" alt="wordpress logo" figcaptio width="50px" height="50px" class=" html-5">
+    <figcaption class="white-text ">WORDPRESS</figcaption>
     </span>
     
     <span class="tech-images">
-    <img src="materialize css.png" alt="materialize logo" width="50px" height="50px" class="animate__animated animate__slideInUp html-5">
-    <figcaption class="white-text animate__animated animate__slideInUp html-5">MATERIALIZE CSS </figcaption>
+    <img src="materialize css.png" alt="materialize logo" width="50px" height="50px" >
+    <figcaption class="white-text  html-5">MATERIALIZE CSS </figcaption>
     </span>
     
     <span class="tech-images">
-    <img src="jquery.png" alt="jquery logo" width="50px" height="50px" class="animate__animated animate__slideInUp html-5">
-    <figcaption class="white-text animate__animated animate__slideInUp html-5">JQUery</figcaption>
+    <img src="jquery.png" alt="jquery logo" width="50px" height="50px" class=" html-5">
+    <figcaption class="white-text  html-5">JQUery</figcaption>
     </span>
 <!-- <img src="wordpress.png" alt="wordpress logo" width="50px" height="50px" class="animate__animated animate__slideInUp  ">
 <img src="materialize css.png" alt="materialize logo" width="50px" height="50px" class="animate__animated animate__slideInUp html-5">
@@ -253,11 +313,11 @@
 <div class="bigpadding center">
   <a href="/innerPage/Chinemere Chukwu's CV.pdf" target="_blank" class="pulse "><button class="wt-btn_sign z-depth-5"><span class="wt-btn_sign-bound"><span data-width="#fff" data-text="Download CV ⭳">Download CV ⭳</span></span></button></a>
   </div>
-
+</div>
 </div>
  </section>
 
- <section class="section scrollspy" id="contactme">
+ <section class="section scrollspy" id="contactme" >
    <div class="container">
      <h5 class="center head ">Contact Me</h5>
    <div class="email  z-depth-5  " ><i class="material-icons pink-text">email</i>
@@ -272,7 +332,14 @@
 
  </section>
 
-<footer class=" footerMain" >
+<footer class=" footerMain" data-aos="slide-up"
+data-aos-offset="10"
+data-aos-delay="1000"
+data-aos-duration="07"
+data-aos-easing="ease-in-out"
+data-aos-mirror="true"
+data-aos-once="false"
+data-aos-anchor-placement="top-center" >
   <div class="container copywrite center  z-depth-5">
     © Copyright 2021 <br>
     Made with all the love 
@@ -291,6 +358,7 @@
         crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
         <script src="innerpage.js"></script>
+
 
   
 
