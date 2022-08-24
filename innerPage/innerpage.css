@@ -45,7 +45,26 @@ body {
 }
 .head {
   color: rgb(197, 195, 195);
+  animation: head 1s infinite;
 }
+@keyframes head {
+  0% {
+    color: red;
+  }
+  25% {
+    color: blur;
+  }
+  50% {
+    color: purple;
+  }
+  75% {
+    color: indianred;
+  }
+  100% {
+    color: yellowgreen;
+  }
+}
+
 .cvdiv {
   margin-bottom: 20px;
 }

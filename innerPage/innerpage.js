@@ -66,6 +66,17 @@ typeWriter3()
 
 
 
+function copywriteYear(){
+  let date = new Date()
+  let year = date.getFullYear()
+  return year
+
+}
+let copywriteYearText = document.getElementById("year")
+copywriteYearText.innerHTML=copywriteYear()
+
+
+
 
 
 
